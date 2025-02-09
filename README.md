@@ -4,7 +4,7 @@
 RV32I Assembly in Python just for fun. 
 
 No dudo ni por un segundo que se puede hacer eficiente,
-pero mientras se aprende con que sea :sparkles: funcional :sparkles: basta por ahora :blush:.
+pero con que sea :sparkles: funcional :sparkles: basta por ahora :blush:.
 
 # Supported Instruction
 
