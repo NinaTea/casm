@@ -5,16 +5,16 @@ RV32I Assembly in Python just for fun.
 
 # Supported Instruction
 
-1. R type
-2. U type
-3. I Type
-4. B Type
-5. S Type
-6. J Type
+- [x] R type
+- [ ] U type
+- [ ] I Type
+- [ ] B Type
+- [ ] S Type
+- [ ] J Type
 
 ![alt text](image.png)
 
-> [!NOTE] Someday pseudoinstructions will be supported
+> Someday pseudoinstructions will be supported
 
 # Pseudo instructions not supported yet
 
