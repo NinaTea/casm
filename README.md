@@ -19,12 +19,9 @@ pero con que sea :sparkles: funcional :sparkles: basta por ahora :blush:.
 
 > Someday pseudoinstructions will be supported
 
-# Pseudo instructions not supported yet
-
 # Respeten la ABI  o
 
 ![alt text](image-1.png)
-
 
 
 # Useful links

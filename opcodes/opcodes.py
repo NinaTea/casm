@@ -1,3 +1,6 @@
+# Hay cosas que dejo porque capaz me sirven a futuro
+# de ultima, los borro
+
 FMT = {
     "R": ["add", "sub", "xor", "or", "and", "sll", "srl", "slt", "sltu"],
     "I": ["addi", "xori", "ori", "andi", "slti", "sltiu", "slli", "srli"],
