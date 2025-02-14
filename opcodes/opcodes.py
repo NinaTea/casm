@@ -234,6 +234,8 @@ funct3 = {
 # Explicacion:
 # https://youtu.be/kOHB85vDuow?si=cMTdogXHRaGKuIha 
 
+
+# abi to binary
 registers = {
     "zero": 0b00000,
     "ra": 0b00001,

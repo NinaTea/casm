@@ -1,10 +1,14 @@
 
-# CASM
+# CASM - WIP
 
 RV32I Assembly in Python just for fun. 
 
+Lo que hace ahora:
+- Agarra el assembly y printea su equivalente en binario.
+
+
 No dudo ni por un segundo que se puede hacer eficiente,
-pero con que sea :sparkles: funcional :sparkles: basta por ahora :blush:.
+pero con que sea :sparkles: funcional :sparkles: me basta(por ahora?).
 
 # Supported Instruction
 
@@ -17,9 +21,9 @@ pero con que sea :sparkles: funcional :sparkles: basta por ahora :blush:.
 
 ![alt text](image.png)
 
-> Someday pseudoinstructions will be supported
+> Someday pseudoinstructions will be supported?
 
-# Respeten la ABI  o
+# Respeten la ABI  ó
 
 ![alt text](image-1.png)
 

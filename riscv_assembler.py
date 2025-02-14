@@ -17,24 +17,7 @@ def type_of_instruction(line: str) -> str|None:
 
     return op.instruction_to_fmt[instruction_name] if instruction_name in op.instruction_to_fmt else None
 
-def parse_immediate(self, imm_str):
-        """Parse immediate values in different formats"""
-        imm_str = imm_str.strip()
-        try:
-            # Hexadecimal (0x...)
-            if imm_str.startswith('0x'):
-                return int(imm_str, 16)
-            # Binary (0b...)
-            elif imm_str.startswith('0b'):
-                return int(imm_str, 2)
-            # Decimal
-            else:
-                return int(imm_str)
-        except ValueError:
-            # Might be a label reference
-            if imm_str in self.labels:
-                return self.labels[imm_str]
-            raise ValueError(f"Invalid immediate value: {imm_str}")
+
     
 def r_parser(inst: str, args: list[str]) -> str:
     """
@@ -88,38 +71,10 @@ def j_parser(opcode: str, rd: str, funct3: str, rs1: str, rs2:str, funct7) -> st
     pass
 
 def instruction_parser(line: str, instruction_type: str | None):
-    """
-    Given the line to read and the instruction type, 
-    this function will return the object that parses that 
-    kind of instruction.
-    """
-
-    """Parse a single line of assembly"""
-    # Remove comments
-    line = line.split('#')[0].strip()
-    if not line:
-        return None
     
-    # # Handle labels
-    # if ':' in line:
-    #     label, rest = line.split(':', 1)
-    #     label = label.strip()
-    #     self.labels[label] = self.current_address
-    #     line = rest.strip()
-    #     if not line:
-    #         return None
-        
-    # Split instruction and arguments
-    parts = line.replace(',', ' ').split()
-    instruction = parts[0].lower()
-    args = parts[1:]
-
-    print("Instruction: ", instruction)
-    print("Args: ", args)
-
     if instruction_type == "R":
         print("entre a R")
-        return r_parser(instruction, args)
+        return r_parser(line)
     elif instruction_type == "U":
         return u_parser(line)
     elif instruction_type == "I":
