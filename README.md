@@ -6,6 +6,10 @@ RV32I Assembly in Python just for fun.
 Lo que hace ahora:
 - Agarra el assembly y printea su equivalente en binario.
 
+objetivo cercano:
+- Tomar un archivo en .asm y generar otro achivo que todas las lineas sean en binario
+
+
 
 No dudo ni por un segundo que se puede hacer eficiente,
 pero con que sea :sparkles: funcional :sparkles: me basta(por ahora?).
@@ -15,9 +19,9 @@ pero con que sea :sparkles: funcional :sparkles: me basta(por ahora?).
 - [x] R type
 - [ ] U type
 - [ ] I Type
-- [ ] B Type
+- [ ] B / SB Type
 - [ ] S Type
-- [ ] J Type
+- [ ] J / UJ Type
 
 ![alt text](image.png)
 
