@@ -10,7 +10,6 @@ objetivo cercano:
 - Tomar un archivo en .asm y generar otro achivo que todas las lineas sean en binario
 
 
-
 No dudo ni por un segundo que se puede hacer eficiente,
 pero con que sea :sparkles: funcional :sparkles: me basta(por ahora?).
 
@@ -18,7 +17,7 @@ pero con que sea :sparkles: funcional :sparkles: me basta(por ahora?).
 
 - [x] R type
 - [ ] U type
-- [ ] I Type
+- [x] I Type
 - [ ] B / SB Type
 - [ ] S Type
 - [ ] J / UJ Type
