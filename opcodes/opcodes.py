@@ -146,7 +146,6 @@ funct3 = {
     "srl": 0b101,
     "sra": 0b101,
     "slt": 0b010,
-
     "sltu": 0b011,
     "addi": 0b000,
     "xori": 0b100,
@@ -190,46 +189,7 @@ funct7 = {
     "sra": 0b010_0000,
 }
 
-funct3 = {
-    "add": 0b000,
-    "sub": 0b000,
-    "xor": 0b100,
-    "or": 0b110,
-    "and": 0b111,
-    "sll": 0b001,
-    "srl": 0b101,
-    "sra": 0b101,
-    "slt": 0b010,
-    "sltu": 0b011,
-    "addi": 0b000,
-    "xori": 0b100,
-    "ori": 0b110,
-    "andi": 0b111,
-    "slti": 0b010,
-    "sltiu": 0b011,
-    "slli": 0b001,
-    "srli": 0b101,
-    "lb": 0b000,
-    "lh": 0b001,
-    "lw": 0b010,
-    "lbu": 0b100,
-    "lhu": 0b101,
-    "jalr": 0b000,
-    "ecall": 0b000,
-    "ebreak": 0b000,
-    "sb": 0b000,
-    "sh": 0b001,
-    "sw": 0b010,
-    "beq": 0b000,
-    "bne": 0b001,
-    "blt": 0b100,
-    "bge": 0b101,
-    "bltu": 0b110,
-    "bgeu": 0b111,
-    "lui": 0b000,
-    "auipc": 0b000,
-    "jal": 0b000,
-}
+
 
 # Explicacion:
 # https://youtu.be/kOHB85vDuow?si=cMTdogXHRaGKuIha 
